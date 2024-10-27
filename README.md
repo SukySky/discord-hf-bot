@@ -14,11 +14,14 @@ This is a Discord bot using the Hugging Face API to answer questions and chat.
    cd discord-hf-bot
 
 2. Install dependencies:
+   ```
    pip install -r requirements.txt
 
-3. Create .env file:
+4. Create .env file:
+   ```
    DISCORD_TOKEN=your_discord_token
-  HF_API_KEY=your_huggingface_api_key
+     HF_API_KEY=your_huggingface_api_key
 
-4. Run the bot:
-   pyhton bot.py
+6. Run the bot:
+   ```
+   python bot.py
